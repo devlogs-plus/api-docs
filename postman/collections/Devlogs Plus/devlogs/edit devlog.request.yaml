@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{URL}}/projects/1/devlogs/1"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"title\": \"devlog!d\",\r
+
+    \    \"body_markdown\": \"markdown not here\"\r
+
+    }"
+settings: {}
+order: 4000

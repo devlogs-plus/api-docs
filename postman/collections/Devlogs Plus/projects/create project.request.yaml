@@ -1,0 +1,18 @@
+$kind: http-request
+url: "{{URL}}/projects"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"project\",\r
+
+    \    \"short_description\": \"ima project\",\r
+
+    \    \"demo_url\": \"project.com\",\r
+
+    \    \"repo_url\": \"gh.com/repo\"\r
+
+    }"
+settings: {}
+order: 2000

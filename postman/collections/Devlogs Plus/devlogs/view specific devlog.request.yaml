@@ -1,0 +1,16 @@
+$kind: http-request
+url: "{{URL}}/projects/1/devlogs/1"
+method: GET
+body:
+  type: text
+  content: "{\r
+
+    \    \"author_user_id\": 1,\r
+
+    \    \"title\": \"devlog!\",\r
+
+    \    \"body_markdown\": \"markdown here\"\r
+
+    }"
+settings: {}
+order: 3000

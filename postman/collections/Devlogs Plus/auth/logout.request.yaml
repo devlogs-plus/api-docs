@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{URL}}/auth/logout"
+method: POST
+body:
+  type: text
+  content: "{\r
+
+    \    \"email\": \"hellog\",\r
+
+    \    \"password\": \"1234567890\"\r
+
+    }"
+settings: {}
+order: 3000

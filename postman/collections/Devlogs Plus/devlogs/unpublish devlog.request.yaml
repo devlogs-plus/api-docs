@@ -1,0 +1,8 @@
+$kind: http-request
+url: "{{URL}}/projects/1/devlogs/1/unpublish"
+method: POST
+body:
+  type: json
+  content: "{}"
+settings: {}
+order: 6000

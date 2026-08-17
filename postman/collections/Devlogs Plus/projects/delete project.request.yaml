@@ -1,0 +1,12 @@
+$kind: http-request
+url: "{{URL}}/projects/2"
+method: DELETE
+body:
+  type: text
+  content: "{\r
+
+    \    \"name\": \"projectnewnamev2\"\r
+
+    }"
+settings: {}
+order: 5000

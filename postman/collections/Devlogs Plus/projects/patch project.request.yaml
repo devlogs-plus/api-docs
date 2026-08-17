@@ -1,0 +1,12 @@
+$kind: http-request
+url: "{{URL}}/projects/2"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"projectnewnamev2\"\r
+
+    }"
+settings: {}
+order: 4000

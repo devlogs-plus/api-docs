@@ -1,0 +1,68 @@
+$kind: http-request
+description: |-
+  ## View Project by ID
+
+  Retrieves the details of a specific project by its unique ID.
+
+  ---
+
+  ### Method & URL
+
+  ```
+  GET {{URL}}/projects/2
+
+   ```
+
+  ---
+
+  ### Path Parameters
+
+  | Parameter | Type | Description |
+  | --- | --- | --- |
+  | `id` | integer | The ID of the project to retrieve. |
+
+  ---
+
+  ### Sample Response (HTTP 200)
+
+  ``` json
+  {
+    "created_at": "Mon, 13 Jul 2026 21:06:35 GMT",
+    "demo_url": "project.com",
+    "id": 2,
+    "name": "project",
+    "owner_user_id": 1,
+    "short_description": "project description",
+    "updated_at": "Mon, 13 Jul 2026 21:06:35 GMT"
+  }
+
+   ```
+
+  ---
+
+  ### Response Fields
+
+  | Field | Type | Description |
+  | --- | --- | --- |
+  | `id` | integer | The unique identifier of the project. |
+  | `name` | string | The name of the project. |
+  | `short_description` | string | A brief description of the project. |
+  | `demo_url` | string | URL to a live demo or project site. |
+  | `owner_user_id` | integer | The ID of the user who owns the project. |
+  | `created_at` | string | Timestamp (UTC) when the project was created. |
+  | `updated_at` | string | Timestamp (UTC) when the project was last updated. |
+url: "{{URL}}/projects/2"
+method: GET
+body:
+  type: text
+  content: "{\r
+
+    \    \"name\": \"justanormalproject\",\r
+
+    \    \"short_description\": \"ima project\",\r
+
+    \    \"demo_url\": \"project.com\"\r
+
+    }"
+settings: {}
+order: 3000

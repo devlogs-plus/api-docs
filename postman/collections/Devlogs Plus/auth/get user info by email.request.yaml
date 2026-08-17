@@ -1,0 +1,12 @@
+$kind: http-request
+url: "{{URL}}/auth/getuser"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\": \"jacksonwengler@gmail.com\"\r
+
+    }"
+settings: {}
+order: 6000

@@ -1,0 +1,16 @@
+$kind: http-request
+url: "{{URL}}/auth/register"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\": \"hellog\",\r
+
+    \    \"password\": \"1234567890\",\r
+
+    \    \"display_name\": \"helllo\"\r
+
+    }"
+settings: {}
+order: 1000

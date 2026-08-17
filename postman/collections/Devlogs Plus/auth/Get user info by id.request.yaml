@@ -1,0 +1,14 @@
+$kind: http-request
+url: "{{URL}}/auth/get/2"
+method: GET
+body:
+  type: text
+  content: "{\r
+
+    \    \"email\": \"hellog\",\r
+
+    \    \"password\": \"1234567890\"\r
+
+    }"
+settings: {}
+order: 5000
