@@ -1,0 +1,12 @@
+$kind: http-request
+name: request code
+url: "{{URL}}/auth/requestcode"
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\": \"jacksonwengler@gmail.com\"\r
+
+    }"
+order: 2131671708077670

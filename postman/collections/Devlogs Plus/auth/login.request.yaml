@@ -1,13 +1,14 @@
 $kind: http-request
+name: login
 url: "{{URL}}/auth/login"
 method: POST
 body:
   type: json
   content: "{\r
 
-    \    \"email\": \"hellog\",\r
+    \    \"email\": \"jacksonwengler@gmail.com\",\r
 
-    \    \"password\": \"ffff\"\r
+    \    \"password\": \"1744304\"\r
 
     }"
 settings: {}
