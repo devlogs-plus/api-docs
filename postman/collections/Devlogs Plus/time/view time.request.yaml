@@ -1,0 +1,4 @@
+$kind: http-request
+url: "{{URL}}/projects/1/seconds-spent"
+method: GET
+order: 1788393361259

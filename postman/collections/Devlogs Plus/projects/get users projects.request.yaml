@@ -1,4 +1,5 @@
 $kind: http-request
-url: ""
+name: get users projects
+url: "{{URL}}/projects/user/1"
 method: GET
 order: 863684657156040
