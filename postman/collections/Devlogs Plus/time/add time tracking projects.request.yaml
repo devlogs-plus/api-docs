@@ -1,0 +1,29 @@
+$kind: http-request
+url: "{{URL}}/projects/1/time"
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \  \"time_tracking_projects\": [\r
+
+    \    {\r
+
+    \      \"name\": \"Personal Website\",\r
+
+    \      \"provider\": \"wakatime\"\r
+
+    \    },\r
+
+    \    {\r
+
+    \      \"name\": \"zerg-invasion-mod\",\r
+
+    \      \"provider\": \"hackatime\"\r
+
+    \    }\r
+
+    \  ]\r
+
+    }"
+order: 1483144595193619
